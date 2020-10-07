@@ -1,0 +1,28 @@
+- http://www.bengtsresor.se/
+
+- Andreas Stanggren & Hampus Olausson
+
+- Bakrund: 
+
+  Vi valde att återskapa våran egen version av en hemsida som heter Bengts Resor.
+  Vi tyckte denna hemsida hade en ganska omodern layout och funktionalitet fast den hade ändå 
+  element så som header, main, footer osv.
+
+- Avgränsningar: 
+
+  - Vi valde att inte ha med "side-baren" som finns på orginalet eftersom vi 
+    vi tyckte den ej behövdes och att hemsidan skulle bli mer lättare att navigera i för användaren utan den.
+  - Vi valde också inte ha med så mycket text som orginalet hade eftersom det gör hemsidan förvirrande och rörig.
+    Efterom orginal hemsidans logga hade dålig upplösning valde vi att göra en egen logga. 
+  - Vi ville göra hemsidan mer modern och stilren men försökte ändå behålla orginalets charm och familjeära känsla.
+  - Genom animationer och transitions försökte vi skapa mer liv i hemsidan igemfört med orginalet 
+    som ej hade några större animationer osv. 
+  - En annan sak vi upptäckte var att orginalets hemsida inte hade några större skillnader i responsivitet.
+    Hemsidan såg likadan ut i både mobilt läge så som desktop läge. Det gjorde vi annorlunda på våran version.
+    Vi gjorde våran hemsida mer responsiv och att hemsidan förändrades beroende på vilket läge den var i så att 
+    den blev mer gästvänlig och bekväm för användaren.
+  - Vi använde oss utav CSS Grid på index sidan för själva layouten och sedan använde vi grid på dom runda bilderna i contact.html.
+    Anledningen till varför vi valde att använda oss utav CSS Grid som layout på index-sidan och CSS Grid på en del i contact-sidan var att vi ville
+    testa implementera grid i olika skalor.
+
+

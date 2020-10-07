@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bengts Bussar - Kontakta Oss</title>
+
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/contact.css" />
+    <!--Font-set-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Damion&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icon-set-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </head>
+  <body>
+    <!--Wrapper-->
+    <div class="wrapper flex-column">
+      <!--header-->
+      <header class="header flex-row centered space-around">
+        <a href="/">
+          <!--logo-->
+          <div class="logo flex-row align-center space-around">
+            <span
+              class="iconify"
+              data-icon="fa-solid:bus-alt"
+              data-inline="false"
+            ></span>
+            <h3 class="h3-logo">Bengt's Resor</h3>
+            <span
+              class="iconify"
+              data-icon="fa-solid:bus-alt"
+              data-inline="false"
+            ></span>
+          </div>
+        </a>
+        <!--nav-links-->
+        <ul class="nav-links flex-row space-around">
+          <li><a href="#">Resekalender</a></li>
+          <li><a href="#">Beställ bussar</a></li>
+          <li><a href="/contact.html">Kontakta oss</a></li>
+        </ul>
+      </header>
+      <!--Contact middle-section -->
+      <div class="title">
+        <h1>
+          Har ni några frågor? <br />
+          Ring, maila eller besök oss på vårat kontor.
+        </h1>
+      </div>
+      <div class="contact-wrapper text-center">
+        <ul class="info-container">
+          <li>Öppetider</li>
+          <li>Telefon: mån - fre kl. 9.00 - 12.00, 13.00-17.00</li>
+          <li>Kontoret: mån 9.00-12.00, 13.00-15.00</li>
+          <li>Kontaktuppgifter</li>
+          <li>Tel. nr. 0511 - 155 55</li>
+          <li>Adress: Sågaregatan 5 - 532 37 Skara</li>
+        </ul>
+        <!--staff pictures-->
+        <div class="staff-wrapper">
+          <div class="staff-container">
+            <img src="./images/bengt.jpg" alt="Bengt" />
+            <p>Bengt</p>
+            <p>kontakt@bengtsresor.se</p>
+          </div>
+          <div class="staff-container">
+            <img src="./images/anita1.jpg" alt="Anita" />
+            <p>Anita</p>
+            <p>anita@bengtsresor.se</p>
+          </div>
+          <div class="staff-container">
+            <img src="./images/Susanne12.jpg" alt="Susanne" />
+            <p>Susanne</p>
+            <p>susanne@bengtsresor.se</p>
+          </div>
+        </div>
+      </div>
+      <!--Form-->
+      <div class="form-title">
+        <h2>Skicka ett mail nedan</h2>
+      </div>
+      <form action="">
+        <div class="contact-form">
+          <div class="f-group">
+            <label for="firstName">Förnamn:</label>
+            <input type="text" name="firstName" id="firstname" />
+          </div>
+          <div class="f-group">
+            <label for="lastName">Efternamn:</label>
+            <input type="text" name="lastName" id="lastname" />
+          </div>
+          <div class="f-group">
+            <label for="phone">Telefon:</label>
+            <input type="text" name="phone" id="phone" />
+          </div>
+          <div class="f-group">
+            <label for="mail">Mail:</label>
+            <input type="text" name="mail" id="mail" />
+          </div>
+          <div class="f-group">
+            <label for="message">Meddelande: </label>
+            <textarea name="message" id="message" cols="30" rows="8"></textarea>
+          </div>
+          <!--Submit Button-->
+          <button class="submit-btn">Skicka</button>
+        </div>
+      </form>
+      <!--Nav-bar-->
+      <div class="flex-row centered">
+        <ul class="nav-links-column flex-column">
+          <li><a href="http://">Resekalender</a></li>
+          <li><a href="http://">Beställ bussar</a></li>
+          <li><a href="/contact.html">Kontakta oss</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
